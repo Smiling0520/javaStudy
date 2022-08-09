@@ -1,7 +1,10 @@
 package com.hzh.study.demo.hashMapDemo;
 
-import com.hzh.study.demo.hashMapDemo.Entry;
-
+/**
+ * @Author huzhenhua
+ * @CreateTime 2022-08-09 23:55:10
+ * @Description 手写hashmap
+ */
 public class HuHashMap<K, V> {
 
     private static final int DEFAULT_CAPACITY = 16;
