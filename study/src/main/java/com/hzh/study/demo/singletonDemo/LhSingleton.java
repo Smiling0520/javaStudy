@@ -7,6 +7,7 @@ public class LhSingleton {
 
     private static LhSingleton lhSingleton = null;
 
+    // 无参构造私有化
     private LhSingleton() {};
 
     public static LhSingleton getInstance() {
