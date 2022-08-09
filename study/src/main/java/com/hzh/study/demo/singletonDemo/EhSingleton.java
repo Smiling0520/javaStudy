@@ -1,7 +1,9 @@
 package com.hzh.study.demo.singletonDemo;
 
 /**
- * 饿汉模式
+ * @Author huzhenhua
+ * @CreateTime 2022-08-09 23:55:10
+ * @Description 饿汉模式
  */
 public class EhSingleton {
 
