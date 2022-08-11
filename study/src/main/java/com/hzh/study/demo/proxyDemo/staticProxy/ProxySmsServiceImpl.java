@@ -1,11 +1,11 @@
-package com.hzh.study.demo.proxyDemo;
+package com.hzh.study.demo.proxyDemo.staticProxy;
 
 /**
  * @Author huzhenhua
  * @CreateTime 2022-08-09 23:55:10
  * @Description 静态代理模式
  */
-public class ProxySmsServiceImpl implements SmsService{
+public class ProxySmsServiceImpl implements SmsService {
 
     private final SmsService smsService;
 

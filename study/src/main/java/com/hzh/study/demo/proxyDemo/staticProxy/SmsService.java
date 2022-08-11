@@ -1,4 +1,4 @@
-package com.hzh.study.demo.proxyDemo;
+package com.hzh.study.demo.proxyDemo.staticProxy;
 
 /**
  * @Author huzhenhua
