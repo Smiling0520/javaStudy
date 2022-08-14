@@ -14,7 +14,11 @@ public class LhSingleton {
 
     public static LhSingleton getInstance() {
         if (lhSingleton == null) {
-            lhSingleton = new LhSingleton();
+            synchronized (LhSingleton.class) {
+                if (lhSingleton == null) {
+                    lhSingleton = new LhSingleton();
+                }
+            }
         }
         return lhSingleton;
     }
